@@ -5,6 +5,3 @@ description: "say hello with GitHub Actions"
 runs:
   using: "node12"
   main: "main.js"
-git add action.yml
-git commit -m 'create action.yml'
-git push
