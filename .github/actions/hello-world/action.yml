@@ -5,3 +5,14 @@ description: "say hello with GitHub Actions"
 runs:
   using: "node12"
   main: "main.js"
+
+  input:
+    first-question:
+        description: "how are you?"
+        required: true
+        default: "good?"
+
+    second-question:
+        description: "what did you do today?"
+        required: true
+        default: "nothing"
