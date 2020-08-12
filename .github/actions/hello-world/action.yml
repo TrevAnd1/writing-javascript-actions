@@ -19,3 +19,7 @@ inputs:
     description: "a third greeting"
     required: false
     default: "what's up doc"
+    
+runs:
+  using: 'node12'
+  main: 'main.js'
